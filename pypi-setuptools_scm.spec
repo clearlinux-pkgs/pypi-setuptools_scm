@@ -4,7 +4,7 @@
 #
 Name     : pypi-setuptools_scm
 Version  : 6.3.2
-Release  : 108
+Release  : 109
 URL      : https://files.pythonhosted.org/packages/4b/0d/ecb9595fae02467edba5023eb8a23c688d2b438a6a8d1a9e2b8649faf23d/setuptools_scm-6.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4b/0d/ecb9595fae02467edba5023eb8a23c688d2b438a6a8d1a9e2b8649faf23d/setuptools_scm-6.3.2.tar.gz
 Summary  : the blessed package to manage your versions by scm tags
@@ -24,6 +24,9 @@ BuildRequires : pypi(wheel)
 BuildRequires : pypi-pip
 BuildRequires : pypi-pytest
 BuildRequires : pypi-virtualenv
+Provides: setuptools_scm
+Provides: setuptools_scm-python
+Provides: setuptools_scm-python3
 
 %description
 setuptools_scm
