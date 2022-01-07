@@ -1,18 +1,1 @@
 # This file contains recursive sources that require this package
-Whoosh
-anyio
-borgbackup
-pypi-backports.entry_points_selectable
-pypi-cmd2
-pypi-iniconfig
-pypi-jaraco.functools
-pypi-platformdirs
-pypi-portend
-pypi-py
-pypi-pytest_runner
-pypi-python_dateutil
-pypi-python_xlib
-pypi-setuptools_scm_git_archive
-pypi-zipp
-tempora
-typeguard
