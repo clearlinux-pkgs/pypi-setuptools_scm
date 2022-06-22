@@ -1,5 +1,5 @@
 PKG_NAME := pypi-setuptools_scm
-URL = https://files.pythonhosted.org/packages/2a/b8/c9256baee670a8e67c9ea565869dcc75fc8fcaa369bb9b8d5a1bfe301985/setuptools_scm-7.0.1.tar.gz
+URL = https://files.pythonhosted.org/packages/43/70/aff5e3c2463b08997e21f5f961d6ebfd32ce56d6026394664d6a10090cbb/setuptools_scm-7.0.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
