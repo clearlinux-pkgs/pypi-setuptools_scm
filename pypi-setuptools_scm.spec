@@ -7,7 +7,7 @@
 #
 Name     : pypi-setuptools_scm
 Version  : 8.0.4
-Release  : 133
+Release  : 134
 URL      : https://files.pythonhosted.org/packages/eb/b1/0248705f10f6de5eefe7ff93e399f7192257b23df4d431d2f5680bb2778f/setuptools-scm-8.0.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/eb/b1/0248705f10f6de5eefe7ff93e399f7192257b23df4d431d2f5680bb2778f/setuptools-scm-8.0.4.tar.gz
 Summary  : the blessed package to manage your versions by scm tags
