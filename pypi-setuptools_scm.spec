@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : pypi-setuptools_scm
-Version  : 8.2.0
-Release  : 139
-URL      : https://files.pythonhosted.org/packages/4b/bd/c5d16dd95900567e09744af92119da7abc5f447320d53ec1d9415ec30263/setuptools_scm-8.2.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/4b/bd/c5d16dd95900567e09744af92119da7abc5f447320d53ec1d9415ec30263/setuptools_scm-8.2.0.tar.gz
+Version  : 8.2.1
+Release  : 140
+URL      : https://files.pythonhosted.org/packages/98/7d/334fba3c2e30ddb5cb9fca7fb8f883c8093891cd1fb02fcf981f2fc4ca96/setuptools_scm-8.2.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/98/7d/334fba3c2e30ddb5cb9fca7fb8f883c8093891cd1fb02fcf981f2fc4ca96/setuptools_scm-8.2.1.tar.gz
 Summary  : the blessed package to manage your versions by scm tags
 Group    : Development/Tools
 License  : MIT
@@ -64,10 +64,10 @@ python3 components for the pypi-setuptools_scm package.
 
 
 %prep
-%setup -q -n setuptools_scm-8.2.0
-cd %{_builddir}/setuptools_scm-8.2.0
+%setup -q -n setuptools_scm-8.2.1
+cd %{_builddir}/setuptools_scm-8.2.1
 pushd ..
-cp -a setuptools_scm-8.2.0 buildavx2
+cp -a setuptools_scm-8.2.1 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1740413724
+export SOURCE_DATE_EPOCH=1742394325
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
